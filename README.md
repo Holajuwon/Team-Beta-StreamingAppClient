@@ -1,1 +1,1 @@
-# -Team-Beta-StreamingAppClient
+# Team-Beta-StreamingAppClient

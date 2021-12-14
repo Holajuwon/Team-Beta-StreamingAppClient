@@ -37,6 +37,19 @@
   }
 }
 
+video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  border-radius: 10px;
+}
+
+#videoDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+
 button {
   font-size: calc(10px + 2vmin);
 }

@@ -9,6 +9,7 @@ export default class Router extends Component {
   render() {
     return (
       <Routes>
+        <Route exact path="/" element={<Watch />} />
         <Route exact path="/broadcast" element={<Broadcast />} />
         <Route exact path="/watch" element={<Watch />} />
         <Route path="*" element={<PageNotFound />} />

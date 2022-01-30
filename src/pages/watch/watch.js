@@ -14,6 +14,7 @@ export default () => {
   };
 
   const socket = io.connect(SERVER, {
+    origin: SERVER,
     'Access-Control-Allow-Origin': SERVER,
   });
   const video = document.querySelector('#watchVideo');

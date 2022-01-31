@@ -1,7 +1,7 @@
 /* eslint-disable no-multi-assign */
 import { io } from 'socket.io-client';
 
-const SERVER = import.meta.env.VITE_SERVER;
+const { SERVER } = process.env;
 
 export default () => {
   let peerConnection = {};

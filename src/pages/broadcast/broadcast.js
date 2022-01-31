@@ -1,7 +1,10 @@
 /* eslint-disable no-console */
 import { io } from 'socket.io-client';
+// import dotenv from 'dotenv';
 
-const SERVER = import.meta.env.VITE_SERVER;
+// dotenv.config();
+
+const { SERVER } = process.env;
 
 export default () => {
   const peerConnections = {};
